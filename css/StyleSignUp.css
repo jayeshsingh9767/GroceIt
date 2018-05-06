@@ -1,0 +1,228 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia,verdana;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(160,73,148) ;
+    width:auto;
+    height: 80px;
+    color: rgb(37, 220, 5);
+}
+
+h2{
+    margin-top: 0px;
+    padding-top:4px;
+    font-size: 60px;
+}
+
+.main{
+  height: 900px;
+  /* background-image:  url("back4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: linear-gradient(to right, rgba(0,155,0,0), rgba(0,255,0,1));
+}
+
+form{
+  padding: 10px;
+  margin-top: 12px;
+  height: 800px;
+  width: 750px;
+  display:inline-grid ;
+  grid-template-columns: 250px 1fr;
+  /* background-color: #fff; */
+  border-radius: 25px;
+
+}
+
+.lb{
+  /* float: left; */
+  padding-top: 5px;
+  vertical-align: baseline;
+  color:black;
+}
+
+.tb{
+  display: block;
+
+  display: inline;
+  border-color: #000;
+  width: 200px;
+  /* height: 40px; */
+
+  }
+
+#firstName{
+
+}
+
+.gender{
+  /* display:inline-block; */
+  /* margin-top: 30px; */
+
+  /* display: subgrid; */
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+  line-height:300%;
+  float: left;
+  position: relative;
+
+}
+
+#gen{
+  display: flex;
+}
+
+input[type="radio"]{
+  margin: 8px;
+
+  }
+
+input[type="text"]{
+
+  height: 30px;
+  font-size: 20px;
+  border-color: #000;
+  border-radius: 20px;
+  width: 250px;
+}
+
+input[type="date"]{
+  float: left;
+  width: 250px;
+  border-radius: 20px;
+  border-color: #000;
+  height: 30px;
+  font-size: 20px;
+}
+
+.doblb{
+  float: left;
+  padding-top: 2px;
+  vertical-align: baseline;
+}
+
+
+.contact{
+
+  float: left;
+}
+
+#contact{
+  float: left;
+}
+
+.email{
+  float: left;
+
+}
+
+#email{
+
+}
+
+.city{
+  float: left;
+
+}
+
+#city{
+
+
+}
+
+
+.pincode{
+  float: left;
+
+}
+
+#pincode{
+
+}
+
+#addlb{
+  float: left;
+}
+
+.address{
+  display: inline;
+
+}
+
+#address{
+  display: inline;
+  float: left;
+  width: 480px;
+  height: 150px;
+  border-radius: 20px;
+  border-color: #000;
+  font-size: 20px;
+}
+
+.uName,.pass{
+  float: left;
+}
+
+input[type="submit"]{
+  margin-left: 260px;
+  height: 50px;
+  font-size: 25px;
+  width: 200px;
+  color: blue;
+  background-color: rgb(37, 220, 5);
+  border-radius: 25px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 70%;
+}
+
+
+footer{
+  height: 60px;
+  background-color: #9ea2a8;
+
+}
+
+h3{
+  display: inline;
+  position: absolute;
+  left: 190px;
+  margin: 20px;
+  bottom: -275px;
+}
+
+.fa{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+
+  }
+
+.fa-facebook{
+  background: #3B5998;
+}
+
+.fa-instagram{
+  background:#ed5a21;
+}
+
+.fa-twitter{
+  background:#55ACEE;
+}
